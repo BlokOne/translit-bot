@@ -8,6 +8,4 @@ services:
     autoDeploy: true
     envVars:
       - key: BOT_TOKEN
-        value: YOUR_TELEGRAM_BOT_TOKEN
-      - key: GROUP_CHAT_ID
-        value: -100XXXXXXXXXX
+        value: 7674241647:AAEp9YGwMspUYcAzkvF9HyKzsvYosRn4wyI
