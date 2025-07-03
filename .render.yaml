@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: translit-telegram-bot
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'node index.js'
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        value: YOUR_TELEGRAM_BOT_TOKEN
+      - key: GROUP_CHAT_ID
+        value: -100XXXXXXXXXX
