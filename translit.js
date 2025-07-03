@@ -48,7 +48,6 @@ function translitToArmenian(input) {
   for (let i = 0; i < text.length;) {
     let found = false;
 
-    // Проверяем 3 символа
     for (let len = 3; len >= 1; len--) {
       const chunk = text.slice(i, i + len);
 
