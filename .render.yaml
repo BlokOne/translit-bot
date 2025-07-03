@@ -6,6 +6,3 @@ services:
     buildCommand: 'npm install'
     startCommand: 'node index.js'
     autoDeploy: true
-    envVars:
-      - key: BOT_TOKEN
-        value: 7674241647:AAEp9YGwMspUYcAzkvF9HyKzsvYosRn4wyI
