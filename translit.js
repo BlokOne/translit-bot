@@ -5,7 +5,7 @@ const translitMap = {
   'ch': 'չ',
   'zh': 'ժ',
   'ts': 'ց',
-  'ou': 'ու',
+  'u': 'ու',
   'tch': 'ճ', 
   'dzʼ': 'ձ', 
 
